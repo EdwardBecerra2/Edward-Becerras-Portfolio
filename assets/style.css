@@ -1,0 +1,35 @@
+body {
+    font-size: 16px;
+    background-color: #46597f;
+}
+
+header {
+  padding: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: grey;
+  color: white;
+
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 45px;
+}
+
+header nav {
+    padding-top: 30.15px;
+    margin-right: 30.15px;
+    float: right;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    color: white;
+}
+
+
