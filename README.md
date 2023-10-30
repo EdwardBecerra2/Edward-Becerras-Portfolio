@@ -1,5 +1,8 @@
 # Edward-Becerras-Portfolio
 
+#### Description
+Edward Becerra's development portfolio
+
 ### Acceptance Criteria
 
 * GIVEN I need to sample a potential employee's previous work
@@ -16,13 +19,11 @@
 * WHEN I resize the page or view the site on various screens and devices
 * THEN I am presented with a responsive layout that adapts to my viewport
 
-### Work Completed
-
-
 ### Screenshot
 
-### Website Link
 
+### Website Link
+file:///Users/ed_dawg/Documents/code-repo/Edward-Becerras-Portfolio/index.html#contact-me
 
 
 ## Contact
