@@ -20,7 +20,7 @@ Edward Becerra's development portfolio
 * THEN I am presented with a responsive layout that adapts to my viewport
 
 ### Screenshot
-
+assets/img/Screenshot 2023-10-29 at 6.18.51 PM.png
 
 ### Website Link
 file:///Users/ed_dawg/Documents/code-repo/Edward-Becerras-Portfolio/index.html#contact-me
