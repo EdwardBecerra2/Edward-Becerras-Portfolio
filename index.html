@@ -1,58 +1,106 @@
-<!Doctype html>
-<html lang="en-US">
-
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Edward Becerra's Portfolio</title>
-    <link rel="resetsheet" href="./assets/reset.css"/>
-    <link rel="stylesheet" href="./assets/style.css"/>
-</head>
+  </head>
 
-<body>
-  <header>
-<!--Header-->
-   <h1>Edward Becerra</h1>
-   <!--Navbar-->
-   <nav>
-     <ul>
-      <Li><a href="#">About Me</a></Li>
-      <Li><a href="#">Work</a></Li>
-      <Li><a href="#">Contact Me</a></Li>
-      <Li><a href="#">Resume</a></Li> 
-     </ul>   
-    </nav>
-  </header>
-</body>
+  <body>
+ 
+    <header>
+      <h1>
+        <a href="/">Edward Becerra's Portfolio</a>
+      </h1>
+  
+      <nav>
+        <ul>
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#contact-me">Contact Me</a>
+          </li>
+      </nav>
+    </header>
 
-<main>
-    <div class="branch">
-        <section>
-          <h2>About Me</h2> 
-           <p> I was born in Pomona California on December 7th 2002 and I am number 6 of 7 children.
-            My hobbies consist of playing video games, guitar, golfing, and anime binging. 
-            Currently I work as a busser and hopefully soon server at a restaurant called Heroes Restaurtant and Brewhouse 
-            in Ontario CA, but I am looking for a new career change so I enrolled in UCLA's Coding Bootcamp!!
-           </p> 
-           <img src="./assets/img/C6DB28B9-7B85-4EA6-997E-8751ACA63FBF_1_105_c.jpeg" alt="Edward Becerra"/>
-        </section>
-        <section>
-          <h2>Work</h2>   
-        </section>
-        <section>
-          <h2>Contact Me</h2> 
-          <ul>
-            <li><a href="#">Phone #</a></li>
-            <li><a href="#">Email</a></li>
-            <li><a href="#">Github</a></li>
-            <li><a href="#">Instagram</a></li>
-          </ul>  
-        </section>
-    </div>
-</main>
+    <section class="hero">
+        <h2>Full-Stack Website Development Student</h2>
+    </section>
+ 
+    <section id="about-me" class="section">
+      
+        <div class="section-title">
+            <h2>
+            About Me
+            </h2>
+        </div>
 
-<footer class="footer">
-    <h3>Made with ❤️️ by Edward Becerra</h3>
-</footer>
+        <div class="flex-row">
+          <img src="./assets/img/C6DB28B9-7B85-4EA6-997E-8751ACA63FBF_1_105_c.jpeg" class="photo" />
+            <p>
+              I was born in Pomona California on December 7th 2002 and I am number 6 of 7 children.
+              My hobbies consist of playing video games, guitar, golfing, and anime binging. 
+              Currently I work as a busser and hopefully soon server at a restaurant called Heroes Restaurtant and Brewhouse 
+              in Ontario CA, but I am looking for a new career change so I enrolled in UCLA's Coding Bootcamp!!
+              </p>
+        </div>
+    </section>
 
+    <section id="work" class="section">
+      
+        <div class="section-title2">
+          <h2>
+            Work
+          </h2>
+        </div>
+
+        <div class="flex-row2">
+          
+            <div class="main-project">
+              <div class="horiseon-refactor">
+                  <p><a href="https://github.com/EdwardBecerra2/Horiseon-Accessibility-Standard-Refactor">Horiseon-Accessibility-Standard-Refactor</a>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    <section id="contact-me" class="section">
+      
+        <div class="section-title">
+          <h2>
+            Contact Me
+          </h2>
+        </div>
+
+       
+        <div class="flex-row">
+            <div class="phone">
+              <a href="tel:909-275-9525">Call Me</a>
+            </div>
+
+            <div class="email">
+              <a href="mailto:Edwardbecerra1207@gmail.com">Email Me</a>
+            </div>
+
+            <div class="instagram">
+              <a href="https://www.instagram.com">instagram</a>
+            </div>
+
+            <div class="github">
+              <a href="http://github.com/EdwardBecerra2">Github</a>
+            </div>
+      </div>
+      </section>
+   
+    <footer>
+      <h2>Made with ❤️️ by Edward Becerra</h2>
+    </footer>
+
+  </body>
 </html>
